@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Angular Templates from Ionic Team"
+title:  "Ionic Toolbox Universe"
 date:   2019-06-17 10:00:00
-categories: templates angular
-tags: templates
-excerpt: Angular Templates from Ionic Team
-mathjax: true
+categories: toolbox repositories
+tags: toolbox universe website repositories
+excerpt: Ionic Toolbox Universe
 ---
 
 Here you will find all repositories of the Ionic Toolbox - Universe 
