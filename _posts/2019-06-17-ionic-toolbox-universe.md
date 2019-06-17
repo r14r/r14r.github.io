@@ -19,8 +19,10 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 
 Here you will find all repositories of the Ionic Toolbox - Universe 
 
-[Learning-Ionic3]:          https://github.com/Learning-Ionic3
-[Learning-Ionic4]:          https://github.com/Learning-Ionic4
+[Learning-Ionic3][https://github.com/Learning-Ionic3]
+
+[Learning-Ionic4][https://github.com/Learning-Ionic4]
+
 [Tutorial_CSS3]:            https://github.com/Tutorial_CSS3
 [ionic-components]:         https://github.com/ionic-components
 [ionic-directives]:         https://github.com/ionic-directives
