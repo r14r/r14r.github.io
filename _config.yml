@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: ionic-templates blog
-brief-intro: Template for the Ionic Framework
+title: ionic-toolbox blog
+brief-intro: Toolbox for the Ionic Framework
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ionic-templates.github.io/" # the base hostname & protocol for your site
+url: "https://ionic-toolbox.github.io/" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
