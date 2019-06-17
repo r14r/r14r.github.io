@@ -8,12 +8,29 @@ excerpt: Ionic Toolbox Universe
 ---
 
 
-Here you will find all repositories of the Ionic Toolbox - Universe create by [me][r14r]
+Here you will find all repositories of the Ionic Toolbox - Universe created by [me][r14r]
 
-[Learning-Ionic3](https://github.com/Learning-Ionic3)
-[Learning-Ionic4](https://github.com/Learning-Ionic4)
-
-[Components][ionic-components]
+[Learning-Ionic3](Learning-Ionic3)
+[Learning-Ionic4](Learning-Ionic4)
+[ionic-components](ionic-components)
+[ionic-directives](ionic-directives)
+[ionic-library](ionic-library)
+[ionic-pages](ionic-pages)
+[ionic-pipes](ionic-pipes)
+[ionic-playground](ionic-playground)
+[ionic-services](ionic-services)
+[ionic-starter](ionic-starter)
+[ionic-team](ionic-team)
+[ionic-templates](ionic-templates)
+[ionic-toolbox](ionic-toolbox)
+[ionic-toolbox-work](ionic-toolbox-work)
+[ionic-training](ionic-training)
+[ionic3-library](ionic3-library)
+[ionic3-toolbox](ionic3-toolbox)
+[ionic4-library](ionic4-library)
+[ionic4-toolbox](ionic4-toolbox)
+[ionic4-toolbox-work](ionic4-toolbox-work)
+[r14r](r14r)
 
 [ionic-components]:     https://github.com/ionic-components
 [ionic-directives]:     https://github.com/ionic-directives
