@@ -28,11 +28,6 @@ universes:
 
 Ionic Toolbox Universes created by [me](https://r14r.github.io)
 
-{% for universe in page.universes %}
-<a href="https://{{universe}}.github.io}">{{universe}}</a>|<a href="https://github.com/{{universe}}">Github</a>
-{% endfor %}
-
-
 <div class="grid clearfix">
 {% for universe in page.universes %}
     <div class="col-1-2">
@@ -40,7 +35,7 @@ Ionic Toolbox Universes created by [me](https://r14r.github.io)
             <h1><a href="https://{{universe}}.github.io}">{{universe}}</a></h1>
             <div class="entry"><p>{{ post.desc }}</p></div>
 
-            <a href="https://github.com/{{universe}}" class="small-link primary-link" target="_blank">View Project Site <i class="fa fa-external-link"><i></a>
+            <a href="https://github.com/{{universe}}" class="small-link primary-link" target="_blank">Repositories <i class="fa fa-external-link"><i></a>
         </div>
     </div>
 {% endfor %}
