@@ -29,5 +29,5 @@ universes:
 Ionic Toolbox Universes created by [me](https://r14r.github.io)
 
 {% for universe in page.universes %}
-- {{universe}} <a href="https://{{universe}}.github.io}">{{universe}}</a>|<a href="https://github.com/{{universe}}">Repositories</a>
+<a href="https://{{universe}}.github.io}">{{universe}}</a>|<a href="https://github.com/{{universe}}">Github</a>
 {% endfor %}
