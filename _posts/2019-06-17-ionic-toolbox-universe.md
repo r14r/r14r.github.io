@@ -8,11 +8,10 @@ excerpt: Ionic Toolbox Universe
 universes: ionic-toolbox ionic-training
 ---
 
-
-Here you will find all repositories of the Ionic Toolbox - Universe created by [me](https://r14r.github.io)
+Ionic Toolbox Universes created by [me](https://r14r.github.io)
 
 {% for universe in page.universes   %}
-- [{{ link }}](https://{{ link }}.github.io) [Github](https://github.com/{{ link }})
+- [{{link}}](https://{{link}}.github.io) [Github](https://github.com/{{link}})
 {% endfor %}
 
 
