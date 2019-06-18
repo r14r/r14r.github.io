@@ -31,3 +31,17 @@ Ionic Toolbox Universes created by [me](https://r14r.github.io)
 {% for universe in page.universes %}
 <a href="https://{{universe}}.github.io}">{{universe}}</a>|<a href="https://github.com/{{universe}}">Github</a>
 {% endfor %}
+
+
+<div class="posts clearfix">
+{% for universe in page.universes %}
+    <article class="post">    
+        <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
+        <h1><a href="https://{{universe}}.github.io}">{{universe}}</a></h1>
+
+        <div class="entry">
+            <p>{{ post.desc }}</p>
+        </div>
+        <a href="https://github.com/{{universe}}" class="small-link primary-link" target="_blank">View Project Site <i class="fa fa-external-link"></i></a>
+    </article>
+{% endfor %}
