@@ -10,10 +10,10 @@ excerpt: Ionic Toolbox Universe
 
 Here you will find all repositories of the Ionic Toolbox - Universe created by [me](https://r14r.github.io)
 
-- [ionic-toolbox](https://github.com/ionic-toolbox) [Web](https://ionic-toolbox.github.io)
+- ionic-toolbox: [Repositories](https://github.com/ionic-toolbox) [Web](https://ionic-toolbox.github.io)
 - [ionic-training](https://github.com/ionic-training) [Web](https://github.com/ionic-training)
 
-- [ionic-library](https://github.com/ionic-library) [Web-library](https://github.com/ionic-library)
+- [ionic-library](https://github.com/ionic-library) [Web](https://github.com/ionic-library)
 - [ionic-components](https://github.com/ionic-components) [Web](https://github.com/ionic-components)
 - [ionic-directives](https://github.com/ionic-directives) [Web](https://github.com/ionic-directives)
 - [ionic-pages](https://github.com/ionic-pages) [Web](https://github.com/ionic-pages)
