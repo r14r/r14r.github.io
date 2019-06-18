@@ -33,9 +33,9 @@ Ionic Toolbox Universes created by [me](https://r14r.github.io)
     <div class="col-1-2">
         <div class="content">
             <h1><a href="https://{{universe}}.github.io}">{{universe}}</a></h1>
-            <div class="entry"><p>{{ post.desc }}</p></div>
-
-            <a href="https://github.com/{{universe}}" class="small-link primary-link" target="_blank">Repositories <i class="fa fa-external-link"><i></a>
+            <a href="https://github.com/{{universe}}" class="small-link primary-link" target="_blank">Repositories
+                <i class="fa fa-external-link"></i>
+            </a>
         </div>
     </div>
 {% endfor %}
