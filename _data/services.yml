@@ -1,0 +1,19 @@
+- title: Learn
+  img: 1.jpg
+  subtitle: 
+  link: "learn.html"
+  text: "Learn with online samples and course"
+
+- title: Practice
+  img: 2.jpg
+  subtitle: ""
+  link: "practice.html"
+  text: "Practice, Practice, Practice"
+
+- title: Test
+  img: 1.jpg
+  subtitle: ""
+  link: "test.html"
+  text: "Test your code with Unit testing and Koans."
+
+

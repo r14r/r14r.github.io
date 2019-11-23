@@ -1,0 +1,7 @@
+- title: 'JavaScript-Referenz'
+  subtitle: 'Mozilla Developer Network - Javascript Referenz'
+  description: 'Die JavaScript Referenz dient als Faktensammlung über die JavaScript Sprache. Hier wird die gesamte Sprache im Detail beschrieben.'
+  link: https://developer.mozilla.org/de/docs/Web/JavaScript/Reference
+  lang: Javascript
+  img: javascript.png
+  category: link

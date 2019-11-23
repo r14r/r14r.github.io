@@ -1,0 +1,20 @@
+- title: 'Song Maker'
+  subtitle: 'Song Maker'
+  link: https://musiclab.chromeexperiments.com/
+  github: '-'
+  img: demo/songmaker.png
+  category: awesome
+
+- title: 'Little Big City'
+  subtitle: 'Little Big City'
+  link: https://pissang.github.io/little-big-city
+  github: https://github.com/pissang/little-big-city
+  img: demo/little-big-city.png
+  category: awesome
+
+- title: 'Lissajous Table'
+  subtitle: 'Lissajous Table'
+  link: https://codepen.io/Alca/pen/oPPbxN
+  github: ''
+  img: demo/lissajous.png
+  category: awesome

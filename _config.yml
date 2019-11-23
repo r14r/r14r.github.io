@@ -1,41 +1,29 @@
-# Site settings
-title: ionic-toolbox blog
-brief-intro: Toolbox for the Ionic Framework
-baseurl: "" 
-url: "https://ionic-toolbox.github.io/" 
+# Site
+name: 'Ionic Toolbox'
+description: 'Ionic Toolbox - Tips, Tricks, Samples and more'
+baseurl: '/'
 
-permalink: /:year/:month/:day/:title/
+include: ["_pages"]
+#permalink: /:title/
 
-# other links
-twitter_username: 
-facebook_username: 
-github_username:  
-email: 
-weibo_username: 
-zhihu_username: 
-linkedIn_username: 
-dribbble_username:
-description_footer:
-duoshuo_shortname:
-disqus_shortname: 
-
-# Build settings
+# Plugins
+#   - jekyll-feed
+plugins: 
+#  - jekyll-sitemap
+#  - jekyll-paginate
+#  - jekyll-seo-tag
+ 
+# Syntax
 markdown: kramdown
+highlighter: rouge
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+# Pagination
+#paginate: 20
 
-# port
-# port: 1234
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
 
-# url
-category_dir: category/
-tag_dir: tag/
-
-# excerpt
-excerpt_separator: "\n\n\n\n"
-
-# paginate
-gems: [jekyll-paginate]
-paginate: 6
+#
+sass:
+    sass_dir: /assets/css
+    style:    compressed

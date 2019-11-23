@@ -1,0 +1,40 @@
+{% assign images = site.url |  append:  '/' | append: site.baseurl | append: '/assets/img/customers' %}
+
+<h4>&nbsp;</h4>
+{% include component/breadcrumb.html %}
+
+<div class="row">
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Learn</h4>
+                <div class="card-body">
+                    <p class="card-text">Learn with online samples and courses</p>
+                </div>
+                <div class="card-footer">
+                    <a href="/pages/learn.html" class="btn btn-primary">Learn</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Practice</h4>
+                <div class="card-body">
+                    <p class="card-text">Practice, Practice, Practice</p>
+                </div>
+                <div class="card-footer">
+                    <a href="/pages/practice.html" class="btn btn-primary">Practice</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Test</h4>
+                <div class="card-body">
+                    <p class="card-text">Test your code with Unit testing and Koans.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="/pages/test.html" class="btn btn-primary">Test</a>
+                </div>
+            </div>
+        </div>
+    </div>

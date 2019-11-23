@@ -1,0 +1,33 @@
+---
+layout: page
+title: Learn
+---
+{% assign images = site.url |  append:  '/' | append: site.baseurl | append: '/assets/img' %}
+
+{% case page.numberofcols %}
+{% when 1 %}{% assign colclass = 'col-md-7' %}
+{% when 2 %}{% assign colclass = 'col-lg-6                  ' %}
+{% when 3 %}{% assign colclass = 'col-lg-4          col-sm-6' %}
+{% when 4 %}{% assign colclass = 'col-lg-3 col-md-4 col-sm-6' %}
+{% else   %}{% assign colclass = 'col-lg-3 col-md-4 col-sm-6' %}
+{% endcase %}
+
+<div class="container">
+    {% include component/breadcrumb.html %}
+
+    <div class="row">
+        {% assign items = site.data.repositories | where: "category", "learn" | sort: "title" %}
+        {% for item in items %}
+        <div class="{{ colclass }} portfolio-item">
+            <div class="card h-100">
+                <a href="{{ item.link }}""><img class=" img-fluid rounded mb-3 mb-md-0" src="{{ images }}/{{ item.img | downcase }}" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title"><a href="{{ item.link }}">{{ item.title }}</a></h4>
+                    <h5>{{ item.subtitle }}</h5>
+                    <p class="card-text">{{ item.text | markdownify }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
