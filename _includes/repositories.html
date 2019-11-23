@@ -10,20 +10,21 @@
 
 <div class="container">
         {% include component/breadcrumb.html %}
-    
+
         <div class="row">
                 {% assign items = site.data.repositories | where: "category", "learn" | sort: "title" %}
                 {% for item in items %}
                 <div class="{{ colclass }} portfolio-item">
                         <div class="card h-100">
-                                <a href="{{ item.link }}""><img class="img-fluid rounded mb-3 mb-md-0" src="{{ images }}/{{ item.img | downcase }}" alt=""></a>
+                                <a href="{{ item.link }}""><img class=" img-fluid rounded mb-3 mb-md-0"
+                                        src="{{ images }}/{{ item.img | downcase }}" alt=""></a>
                                 <div class="card-body">
-                                    <h4 class="card-title"><a href="#">{{ item.title }}</a></h4>
-                                    <h5>{{ item.subtitle }}</h5>
-                                    <p class="card-text">{{ item.text | markdownify }}</p>
+                                        <h4 class="card-title"><a href="#">{{ item.title }}</a></h4>
+                                        <h5>{{ item.subtitle }}</h5>
+                                        <p class="card-text">{{ item.text | markdownify }}</p>
                                 </div>
-                            </div>
+                        </div>
                 </div>
                 {% endfor %}
         </div>
-    </div>
+</div>

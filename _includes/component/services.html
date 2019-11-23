@@ -1,5 +1,5 @@
-{% assign pages = site.url |  append:  '/' | append: site.baseurl | append: '/pages' %}
-{% assign images = site.url |  append:  '/' | append: site.baseurl | append: '/assets/img/services' %}
+{% assign pages = site.url  | append:  '/' | append: site.baseurl | append: '/pages' %}
+{% assign images = site.url | append:  '/' | append: site.baseurl | append: '/assets/img/services' %}
 
 {% if page.headerimage == "yes" %}
 <img class="img-fluid rounded mb-4" src="{{ images }}/header.jpg" alt="">
