@@ -33,7 +33,7 @@ do
 
 	echo "- title: \"$_TITLE\""
 	echo "  subtitle: \"$_SUBTITLE\""
-	echo "  link: https://github.com/ionic-training/$_REPO"
+	echo "  link: https://github.com/ionic-toolbox/$_REPO"
 	echo "  lang: $_LANG"
 	echo "  img: ${_LANG,,}.png"
 	echo "  category: ${_CATEGORY,,}"
