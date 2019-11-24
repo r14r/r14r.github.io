@@ -2,6 +2,8 @@
 
 _IDX=0
 
+_DIRIMG=../ionic-toolbox.github.io/assets/img
+
 for _REP in $(ls -1d ../* | grep -v github.io)
 do
 	_REPO="$(basename "$_REP")"			# Learning-TypeScript_DataStructures-and-Algorithms-01
@@ -23,6 +25,14 @@ do
 		fi
 	fi
 
+	_IMG="${_SUBTITLE/ /-}.png"
+	_IMG="${_IMG,,}"
+
+	if [[ ! -f $_DIRIMG/$_IMG ]]; then
+		_IMG="${_TITLE/ /-}.png"
+		_IMG="${_IMG,,}"
+	fi
+
 	[[ "$_LANG" = ""	]] && _LANG=default
 
 	_CATEGORY="${_TYPE,,}"
@@ -35,7 +45,7 @@ do
 	echo "  subtitle: \"$_SUBTITLE\""
 	echo "  link: https://github.com/ionic-toolbox/$_REPO"
 	echo "  lang: $_LANG"
-	echo "  img: ${_LANG,,}.png"
+	echo "  img: ${_IMG}"
 	echo "  category: ${_CATEGORY,,}"
 	echo ""
 	echo "#"
