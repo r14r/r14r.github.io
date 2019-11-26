@@ -1,6 +1,6 @@
 # Site
-name: 'Ionic Toolbox'
-description: 'Ionic Toolbox - Tips, Tricks, Samples and more'
+name: 'Angular Toolbox'
+description: 'Angular Toolbox - Tips, Tricks, Samples and more'
 baseurl: '/'
 
 include: ["_pages"]
