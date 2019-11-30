@@ -2,7 +2,9 @@
 
 _IDX=0
 
-_DIRIMG=../ionic-toolbox.github.io/assets/img
+USERID="basename $(pwd)"
+
+_DIRIMG=../${USERID}/assets/img
 
 for _REP in $(ls -1d ../* | grep -v github.io)
 do
@@ -43,7 +45,7 @@ do
 
 	echo "- title: \"$_TITLE\""
 	echo "  subtitle: \"$_SUBTITLE\""
-	echo "  link: https://github.com/ionic-toolbox/$_REPO"
+	echo "  link: https://github.com/${USERID}/$_REPO"
 	echo "  lang: $_LANG"
 	echo "  img: ${_IMG}"
 	echo "  category: ${_CATEGORY,,}"
