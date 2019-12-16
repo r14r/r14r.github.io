@@ -1,776 +1,504 @@
-- title: "Angular"
-  subtitle: "Angular"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Angular
+- title: "AdventOfCode"
+  subtitle: "AdventOfCode"
+  link: https://github.com/r14r.github.io/AdventOfCode
   lang: default
-  img: angular.png
-  category: angular
+  img: adventofcode.png
+  category: adventofcode
 
 #
-- title: "Angular Administration-Framework"
-  subtitle: "Angular Administration-Framework"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Angular-Administration-Framework
-  lang: Administration-Framework
-  img: angular-administration-framework.png
-  category: angular
-
-#
-- title: "Angular Bootstrap-with-Material-Design"
-  subtitle: "Angular Bootstrap-with-Material-Design"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Angular-Bootstrap-with-Material-Design
-  lang: Bootstrap-with-Material-Design
-  img: angular-bootstrap-with-material-design.png
-  category: angular
-
-#
-- title: "AngularCV"
-  subtitle: "AngularCV"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/AngularCV
-  lang: default
-  img: angularcv.png
-  category: angularcv
-
-#
-- title: "App Bootstrap"
-  subtitle: "Components Demo"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App-Bootstrap_Components-Demo
-  lang: Bootstrap
-  img: app-bootstrap.png
-  category: app
-
-#
-- title: "App Bootstrap"
-  subtitle: "Demo 01"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App-Bootstrap_Demo-01
-  lang: Bootstrap
-  img: app-bootstrap.png
-  category: app
-
-#
-- title: "App Bootstrap"
-  subtitle: "Personal Portfolio"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App-Bootstrap_Personal-Portfolio
-  lang: Bootstrap
-  img: app-bootstrap.png
-  category: app
-
-#
-- title: "App D3"
-  subtitle: "Charts"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App-D3_Charts
-  lang: D3
-  img: app-d3.png
-  category: app
-
-#
-- title: "App Demo"
-  subtitle: "01"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App-Demo_01
-  lang: Demo
-  img: app-demo.png
-  category: app
-
-#
-- title: "App Demo"
-  subtitle: "02"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App-Demo_02
-  lang: Demo
-  img: app-demo.png
-  category: app
-
-#
-- title: "App Demo"
-  subtitle: "Animations"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App-Demo_Animations
-  lang: Demo
-  img: app-demo.png
-  category: app
-
-#
-- title: "App Demo"
-  subtitle: "Material Courses"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App-Demo_Material-Courses
-  lang: Demo
-  img: app-demo.png
-  category: app
-
-#
-- title: "App Demo"
-  subtitle: "Periodic Table"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App-Demo_Periodic-Table
-  lang: Demo
-  img: app-demo.png
-  category: app
-
-#
-- title: "App Demo"
-  subtitle: "Viewchild"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App-Demo_Viewchild
-  lang: Demo
-  img: app-demo.png
-  category: app
-
-#
-- title: "App Demo"
-  subtitle: "ngx"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App-Demo_ngx
-  lang: Demo
-  img: app-demo.png
-  category: app
-
-#
-- title: "App PWA"
-  subtitle: "Demo 01"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App-PWA_Demo-01
-  lang: PWA
-  img: app-pwa.png
-  category: app
-
-#
-- title: "App PWA"
-  subtitle: "Demo 02"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App-PWA_Demo-02
-  lang: PWA
-  img: app-pwa.png
-  category: app
-
-#
-- title: "App PWA"
-  subtitle: "Twitter"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App-PWA_Twitter
-  lang: PWA
-  img: app-pwa.png
-  category: app
-
-#
-- title: "App PWA"
-  subtitle: "Workbox"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App-PWA_Workbox
-  lang: PWA
-  img: app-pwa.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Admin Client-with-Bootstrap4"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Admin-Client-with-Bootstrap4
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Administration Framework"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Administration-Framework
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "All Components-Demo"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_All-Components-Demo
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Async Local-Storage"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Async-Local-Storage
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Awesome Angular"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Awesome-Angular
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Books CRUD-20190808"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Books-CRUD-20190808
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Calculator Material-Design"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Calculator-Material-Design
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Demo ng-Conf-2019"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Demo-ng-Conf-2019
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Estimate"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Estimate
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Gym"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Gym
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Ionic Angular-SQLite-20190726"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Ionic-Angular-SQLite-20190726
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Itinerary"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Itinerary
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Kahla cross-platform-business-messaging"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Kahla-cross-platform-business-messaging
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Material Multilevel-Menu"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Material-Multilevel-Menu
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Planet"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Planet
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Poetry"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Poetry
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Portfolio"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Portfolio
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Recipe Store"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Recipe-Store
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Renderer2 Demo"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Renderer2-Demo
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Serendipity"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Serendipity
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "ShoppingCart"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_ShoppingCart
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "Very Awesome-Contact-App"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_Very-Awesome-Contact-App
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "App"
-  subtitle: "ng thingsboard"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/App_ng-thingsboard
-  lang: default
-  img: app.png
-  category: app
-
-#
-- title: "Awesome"
-  subtitle: "01"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Awesome_01
-  lang: default
-  img: awesome.png
+- title: "Awesome Lists"
+  subtitle: "Awesome Lists"
+  link: https://github.com/r14r.github.io/Awesome-Lists
+  lang: Lists
+  img: awesome-lists.png
   category: awesome
 
 #
-- title: "Awesome"
-  subtitle: "02"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Awesome_02
-  lang: default
-  img: awesome.png
-  category: awesome
-
-#
-- title: "Awesome"
-  subtitle: "Angular Preview"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Awesome_Angular-Preview
-  lang: default
-  img: awesome.png
-  category: awesome
-
-#
-- title: "Awesome"
-  subtitle: "Utils Dev"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Awesome_Utils-Dev
-  lang: default
-  img: awesome.png
-  category: awesome
-
-#
-- title: "Centaurus"
-  subtitle: "Centaurus"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Centaurus
-  lang: default
-  img: centaurus.png
-  category: centaurus
-
-#
-- title: "Component"
-  subtitle: "Email Editor"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Component_Email-Editor
-  lang: default
-  img: component.png
-  category: component
-
-#
-- title: "Component"
-  subtitle: "Fontawesome"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Component_Fontawesome
-  lang: default
-  img: component.png
-  category: component
-
-#
-- title: "Components"
-  subtitle: "Mosaic"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Components_Mosaic
-  lang: default
-  img: components.png
-  category: components
-
-#
-- title: "Framework"
-  subtitle: "Ornamentum"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Framework_Ornamentum
-  lang: default
-  img: framework.png
-  category: framework
-
-#
-- title: "JavaScript Demos"
-  subtitle: "JavaScript Demos"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/JavaScript-Demos
-  lang: Demos
-  img: javascript-demos.png
+- title: "Javascript Test-Driven"
+  subtitle: "learning"
+  link: https://github.com/r14r.github.io/Javascript-Test-Driven_learning
+  lang: Test-Driven
+  img: learning.png
   category: javascript
 
 #
-- title: "Learning"
-  subtitle: "Angular"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Learning_Angular
-  lang: default
-  img: learning.png
-  category: learn
+- title: "Javascript Writing-Module-Best-Practices"
+  subtitle: "Javascript Writing-Module-Best-Practices"
+  link: https://github.com/r14r.github.io/Javascript-Writing-Module-Best-Practices
+  lang: Writing-Module-Best-Practices
+  img: javascript-writing-module-best-practices.png
+  category: javascript
 
 #
-- title: "Learning"
-  subtitle: "Angular Interview-Questions"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Learning_Angular-Interview-Questions
-  lang: default
-  img: learning.png
-  category: learn
+- title: "Javascript socket.io"
+  subtitle: "Javascript socket.io"
+  link: https://github.com/r14r.github.io/Javascript-socket.io
+  lang: socket.io
+  img: javascript-socket.io.png
+  category: javascript
 
 #
-- title: "Library"
-  subtitle: "Catalog of-Components-Libraries"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Library_Catalog-of-Components-Libraries
-  lang: default
-  img: library.png
-  category: library
+- title: "Python A-Programmers-Guide-to-Data-Mining"
+  subtitle: "Python A-Programmers-Guide-to-Data-Mining"
+  link: https://github.com/r14r.github.io/Python-A-Programmers-Guide-to-Data-Mining
+  lang: A-Programmers-Guide-to-Data-Mining
+  img: python-a-programmers-guide-to-data-mining.png
+  category: python
 
 #
-- title: "Library"
-  subtitle: "Material Design-Components"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Library_Material-Design-Components
-  lang: default
-  img: library.png
-  category: library
-
-#
-- title: "Library"
-  subtitle: "Password Strength"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Library_Password-Strength
-  lang: default
-  img: library.png
-  category: library
-
-#
-- title: "NgDashBoard"
-  subtitle: "NgDashBoard"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/NgDashBoard
-  lang: default
-  img: ngdashboard.png
-  category: ngdashboard
-
-#
-- title: "Starter"
-  subtitle: "Apollo Universal-Starter-Kit"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Starter_Apollo-Universal-Starter-Kit
-  lang: default
-  img: starter.png
-  category: starter
-
-#
-- title: "Starter"
-  subtitle: "Bootstrap Fontawesome"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Starter_Bootstrap-Fontawesome
-  lang: default
-  img: starter.png
-  category: starter
-
-#
-- title: "Starter"
-  subtitle: "LeonardoMattevi angular-complete-starter"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Starter_LeonardoMattevi-angular-complete-starter
-  lang: default
-  img: starter.png
-  category: starter
-
-#
-- title: "Starter"
-  subtitle: "ThreeJS"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Starter_ThreeJS
-  lang: default
-  img: starter.png
-  category: starter
-
-#
-- title: "Starter"
-  subtitle: "mazurdev_angular_full_starter"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Starter_mazurdev_angular_full_starter
-  lang: default
-  img: starter.png
-  category: starter
-
-#
-- title: "Starter"
-  subtitle: "ngrx material"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Starter_ngrx-material
-  lang: default
-  img: starter.png
-  category: starter
-
-#
-- title: "Training Typescript"
-  subtitle: "Complete Course"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Training-Typescript_Complete-Course
-  lang: Typescript
-  img: training-typescript.png
-  category: training
-
-#
-- title: "Training ngrx"
-  subtitle: "Course"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Training-ngrx_Course
-  lang: ngrx
-  img: training-ngrx.png
-  category: training
-
-#
-- title: "Training"
-  subtitle: "Angular Advanced-Course"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Training_Angular-Advanced-Course
-  lang: default
-  img: training.png
-  category: training
-
-#
-- title: "Training"
-  subtitle: "Complete"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Training_Complete
-  lang: default
-  img: training.png
-  category: training
-
-#
-- title: "Training"
-  subtitle: "Complete comprehensive-course"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Training_Complete-comprehensive-course
-  lang: default
-  img: training.png
-  category: training
-
-#
-- title: "Training"
-  subtitle: "Resources"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Training_Resources
-  lang: default
-  img: training.png
-  category: training
-
-#
-- title: "Tutorial Building-a-Website"
-  subtitle: "Tutorial Building-a-Website"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Tutorial-Building-a-Website
-  lang: Building-a-Website
-  img: tutorial-building-a-website.png
-  category: tutorial
-
-#
-- title: "Tutorial Getting-Started"
-  subtitle: "Tutorial Getting-Started"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Tutorial-Getting-Started
-  lang: Getting-Started
-  img: tutorial-getting-started.png
-  category: tutorial
-
-#
-- title: "Tutorial Tour-of-Heroes"
-  subtitle: "Tutorial Tour-of-Heroes"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Tutorial-Tour-of-Heroes
-  lang: Tour-of-Heroes
-  img: tutorial-tour-of-heroes.png
-  category: tutorial
-
-#
-- title: "Working with-Angular"
-  subtitle: "Working with-Angular"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Working-with-Angular
-  lang: with-Angular
-  img: working-with-angular.png
+- title: "Working with-TDD"
+  subtitle: "Working with-TDD"
+  link: https://github.com/r14r.github.io/Working-with-TDD
+  lang: with-TDD
+  img: working-with-tdd.png
   category: working
 
 #
-- title: "Working with-Bazel"
-  subtitle: "Working with-Bazel"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Working-with-Bazel
-  lang: with-Bazel
-  img: working-with-bazel.png
-  category: working
-
-#
-- title: "Working with-Bootstrap"
-  subtitle: "Working with-Bootstrap"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Working-with-Bootstrap
-  lang: with-Bootstrap
-  img: working-with-bootstrap.png
-  category: working
-
-#
-- title: "Working with-Material-Design"
-  subtitle: "Working with-Material-Design"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Working-with-Material-Design
-  lang: with-Material-Design
-  img: working-with-material-design.png
-  category: working
-
-#
-- title: "Working with"
-  subtitle: "Angular"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Working-with_Angular
-  lang: with
-  img: working-with.png
-  category: working
-
-#
-- title: "Working with"
-  subtitle: "Bazel"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Working-with_Bazel
-  lang: with
-  img: working-with.png
-  category: working
-
-#
-- title: "Working with"
-  subtitle: "Bootstrap"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Working-with_Bootstrap
-  lang: with
-  img: working-with.png
-  category: working
-
-#
-- title: "Working with"
-  subtitle: "Material Design"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Working-with_Material-Design
-  lang: with
-  img: working-with.png
-  category: working
-
-#
-- title: "Working with"
-  subtitle: "Projects"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Working-with_Projects
-  lang: with
-  img: working-with.png
-  category: working
-
-#
-- title: "Working with"
-  subtitle: "RxJS"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/Working-with_RxJS
-  lang: with
-  img: working-with.png
-  category: working
-
-#
-- title: "World Top-News-HybridApp"
-  subtitle: "World Top-News-HybridApp"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/World-Top-News-HybridApp
-  lang: Top-News-HybridApp
-  img: world-top-news-hybridapp.png
-  category: world
-
-#
-- title: "angular l10n"
-  subtitle: "angular l10n"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/angular-l10n
-  lang: l10n
-  img: angular-l10n.png
-  category: angular
-
-#
-- title: "angular l10n-sample"
-  subtitle: "angular l10n-sample"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/angular-l10n-sample
-  lang: l10n-sample
-  img: angular-l10n-sample.png
-  category: angular
-
-#
-- title: "angular logger"
-  subtitle: "angular logger"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/angular-logger
-  lang: logger
-  img: angular-logger.png
-  category: angular
-
-#
-- title: "angular multiple-environment"
-  subtitle: "angular multiple-environment"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/angular-multiple-environment
-  lang: multiple-environment
-  img: angular-multiple-environment.png
-  category: angular
-
-#
-- title: "angular universal-starter"
-  subtitle: "angular universal-starter"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/angular-universal-starter
-  lang: universal-starter
-  img: angular-universal-starter.png
-  category: angular
-
-#
-- title: "components"
-  subtitle: "components"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/components
+- title: "awesome"
+  subtitle: "awesome awesome"
+  link: https://github.com/r14r.github.io/awesome-awesome
   lang: default
-  img: components.png
-  category: components
+  img: awesome.png
+  category: awesome
 
 #
-- title: "euler in-angular"
-  subtitle: "euler in-angular"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/euler-in-angular
-  lang: in-angular
-  img: euler-in-angular.png
-  category: euler
+- title: "cli"
+  subtitle: "direnv"
+  link: https://github.com/r14r.github.io/cli_direnv
+  lang: default
+  img: cli.png
+  category: cli
 
 #
-- title: "materialize angular"
-  subtitle: "materialize angular"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/materialize-angular
-  lang: angular
-  img: materialize-angular.png
-  category: materialize
+- title: "cli"
+  subtitle: "git"
+  link: https://github.com/r14r.github.io/cli_git
+  lang: default
+  img: cli.png
+  category: cli
 
 #
-- title: "ng bootstrap"
-  subtitle: "ng bootstrap"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/ng-bootstrap
-  lang: bootstrap
-  img: ng-bootstrap.png
-  category: ng
+- title: "cli"
+  subtitle: "git_clone_repositories"
+  link: https://github.com/r14r.github.io/cli_git_clone_repositories
+  lang: default
+  img: cli.png
+  category: cli
 
 #
-- title: "ngx bootstrap"
-  subtitle: "ngx bootstrap"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/ngx-bootstrap
-  lang: bootstrap
-  img: ngx-bootstrap.png
-  category: ngx
+- title: "cubr"
+  subtitle: "cubr"
+  link: https://github.com/r14r.github.io/cubr
+  lang: default
+  img: cubr.png
+  category: cubr
 
 #
-- title: "ngx decorators"
-  subtitle: "ngx decorators"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/ngx-decorators
-  lang: decorators
-  img: ngx-decorators.png
-  category: ngx
+- title: "dash"
+  subtitle: "dash"
+  link: https://github.com/r14r.github.io/dash
+  lang: default
+  img: dash.png
+  category: dash
 
 #
-- title: "protractor testing-demo-app"
-  subtitle: "protractor testing-demo-app"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/protractor-testing-demo-app
-  lang: testing-demo-app
-  img: protractor-testing-demo-app.png
-  category: protractor
+- title: "datasciencecoursera"
+  subtitle: "datasciencecoursera"
+  link: https://github.com/r14r.github.io/datasciencecoursera
+  lang: default
+  img: datasciencecoursera.png
+  category: practice
 
 #
-- title: "toh pt6.zip"
-  subtitle: "toh pt6.zip"
-  link: https://github.com/basename /Users/Shared/CLOUD/Development.Angular/Repositories.FromGithub/repositories/angular-toolbox/angular-toolbox.github.io/toh-pt6.zip
-  lang: pt6.zip
-  img: toh-pt6.zip.png
-  category: toh
+- title: "fork"
+  subtitle: "aurelia_samples"
+  link: https://github.com/r14r.github.io/fork_aurelia_samples
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "awesome angularjs"
+  link: https://github.com/r14r.github.io/fork_awesome-angularjs
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "awesome_nodejs"
+  link: https://github.com/r14r.github.io/fork_awesome_nodejs
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "coding_interview"
+  link: https://github.com/r14r.github.io/fork_coding_interview
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "common_node"
+  link: https://github.com/r14r.github.io/fork_common_node
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "excel_excelvbaunit"
+  link: https://github.com/r14r.github.io/fork_excel_excelvbaunit
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "excel_tdd"
+  link: https://github.com/r14r.github.io/fork_excel_tdd
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "express_postit"
+  link: https://github.com/r14r.github.io/fork_express_postit
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "express_traider.io"
+  link: https://github.com/r14r.github.io/fork_express_traider.io
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "fonts_monosocialiconsfont"
+  link: https://github.com/r14r.github.io/fork_fonts_monosocialiconsfont
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "foundation_master"
+  link: https://github.com/r14r.github.io/fork_foundation_master
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "icons_WindowsIcons"
+  link: https://github.com/r14r.github.io/fork_icons_WindowsIcons
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "icons_open iconic"
+  link: https://github.com/r14r.github.io/fork_icons_open-iconic
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "ios_Programming iOS-Book-Examples"
+  link: https://github.com/r14r.github.io/fork_ios_Programming-iOS-Book-Examples
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "ios_mdhelper"
+  link: https://github.com/r14r.github.io/fork_ios_mdhelper
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_algorithms in-javascript"
+  link: https://github.com/r14r.github.io/fork_javascript_algorithms-in-javascript
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_async"
+  link: https://github.com/r14r.github.io/fork_javascript_async
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_cms_calipso"
+  link: https://github.com/r14r.github.io/fork_javascript_cms_calipso
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_dsjslib"
+  link: https://github.com/r14r.github.io/fork_javascript_dsjslib
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_invisible"
+  link: https://github.com/r14r.github.io/fork_javascript_invisible
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_isomorph"
+  link: https://github.com/r14r.github.io/fork_javascript_isomorph
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_isomorphic react-example"
+  link: https://github.com/r14r.github.io/fork_javascript_isomorphic-react-example
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_isomorphic_tutorial"
+  link: https://github.com/r14r.github.io/fork_javascript_isomorphic_tutorial
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_js toolbox"
+  link: https://github.com/r14r.github.io/fork_javascript_js-toolbox
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_js_the_right_way"
+  link: https://github.com/r14r.github.io/fork_javascript_js_the_right_way
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_lodash"
+  link: https://github.com/r14r.github.io/fork_javascript_lodash
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_nodeunit"
+  link: https://github.com/r14r.github.io/fork_javascript_nodeunit
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_react router-mega-demo"
+  link: https://github.com/r14r.github.io/fork_javascript_react-router-mega-demo
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_scripted"
+  link: https://github.com/r14r.github.io/fork_javascript_scripted
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_strapdown"
+  link: https://github.com/r14r.github.io/fork_javascript_strapdown
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_uikit"
+  link: https://github.com/r14r.github.io/fork_javascript_uikit
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "javascript_webscrap_pjscrape"
+  link: https://github.com/r14r.github.io/fork_javascript_webscrap_pjscrape
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "machinelearning_viennajs predictionio"
+  link: https://github.com/r14r.github.io/fork_machinelearning_viennajs-predictionio
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "nodejs_form_nodeunit_nodeunit_dsl"
+  link: https://github.com/r14r.github.io/fork_nodejs_form_nodeunit_nodeunit_dsl
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "nodejs_fwd_node_client"
+  link: https://github.com/r14r.github.io/fork_nodejs_fwd_node_client
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "nodejs_nodeshop"
+  link: https://github.com/r14r.github.io/fork_nodejs_nodeshop
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "nodejs_nodetoolbox"
+  link: https://github.com/r14r.github.io/fork_nodejs_nodetoolbox
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "nodejs_ottemo_node_experiment"
+  link: https://github.com/r14r.github.io/fork_nodejs_ottemo_node_experiment
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "nodejs_wheat"
+  link: https://github.com/r14r.github.io/fork_nodejs_wheat
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "python_numerical_mooc"
+  link: https://github.com/r14r.github.io/fork_python_numerical_mooc
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "r_shiny"
+  link: https://github.com/r14r.github.io/fork_r_shiny
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "raspberry_pi_gpio"
+  link: https://github.com/r14r.github.io/fork_raspberry_pi_gpio
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "raspberry_quick2wire gpio-admin"
+  link: https://github.com/r14r.github.io/fork_raspberry_quick2wire-gpio-admin
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "swift_intro playgrounds"
+  link: https://github.com/r14r.github.io/fork_swift_intro-playgrounds
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "tutorials_ShapingUpWithAngular.js"
+  link: https://github.com/r14r.github.io/fork_tutorials_ShapingUpWithAngular.js
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "tutorials_freecodecamp"
+  link: https://github.com/r14r.github.io/fork_tutorials_freecodecamp
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "webpresentation_73rhodes"
+  link: https://github.com/r14r.github.io/fork_webpresentation_73rhodes
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "xcode_IBDesignable Demo"
+  link: https://github.com/r14r.github.io/fork_xcode_IBDesignable-Demo
+  lang: default
+  img: fork.png
+  category: fork
+
+#
+- title: "fork"
+  subtitle: "xcode_xassets_script"
+  link: https://github.com/r14r.github.io/fork_xcode_xassets_script
+  lang: default
+  img: fork.png
+  category: fork
 
 #
