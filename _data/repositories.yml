@@ -1,504 +1,830 @@
-- title: "AdventOfCode"
-  subtitle: "AdventOfCode"
-  link: https://github.com/r14r.github.io/AdventOfCode
-  lang: default
-  img: adventofcode.png
-  category: adventofcode
+- title: "Awesome-Lists"
+  subtitle: ""
+  text: ""
+  link: "https://github.com/r14r/Awesome-Lists"
+  lang: "-"
+  img: "placeholder.png"
+  rep: "Awesome-Lists/"
+  category: "awesome-lists"
+  step: "U1-T2-S1-I#-M1-T1"
 
-#
-- title: "Awesome Lists"
-  subtitle: "Awesome Lists"
-  link: https://github.com/r14r.github.io/Awesome-Lists
-  lang: Lists
-  img: awesome-lists.png
-  category: awesome
+- title: "Django "
+  subtitle: "App D3 Example"
+  text: ""
+  link: "https://github.com/r14r/Django_App-D3-Example"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_App-D3-Example/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
 
-#
-- title: "Javascript Test-Driven"
-  subtitle: "learning"
-  link: https://github.com/r14r.github.io/Javascript-Test-Driven_learning
-  lang: Test-Driven
-  img: learning.png
-  category: javascript
+- title: "Django "
+  subtitle: "App D3_Example"
+  text: ""
+  link: "https://github.com/r14r/Django_App-D3_Example"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_App-D3_Example/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
 
-#
-- title: "Javascript Writing-Module-Best-Practices"
-  subtitle: "Javascript Writing-Module-Best-Practices"
-  link: https://github.com/r14r.github.io/Javascript-Writing-Module-Best-Practices
-  lang: Writing-Module-Best-Practices
-  img: javascript-writing-module-best-practices.png
-  category: javascript
+- title: "Django "
+  subtitle: "App D3_NetJSONGraph"
+  text: ""
+  link: "https://github.com/r14r/Django_App-D3_NetJSONGraph"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_App-D3_NetJSONGraph/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
 
-#
-- title: "Javascript socket.io"
-  subtitle: "Javascript socket.io"
-  link: https://github.com/r14r.github.io/Javascript-socket.io
-  lang: socket.io
-  img: javascript-socket.io.png
-  category: javascript
+- title: "Django "
+  subtitle: "App Dashboard_CoreUI"
+  text: ""
+  link: "https://github.com/r14r/Django_App-Dashboard_CoreUI"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_App-Dashboard_CoreUI/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
 
-#
-- title: "Python A-Programmers-Guide-to-Data-Mining"
-  subtitle: "Python A-Programmers-Guide-to-Data-Mining"
-  link: https://github.com/r14r.github.io/Python-A-Programmers-Guide-to-Data-Mining
-  lang: A-Programmers-Guide-to-Data-Mining
-  img: python-a-programmers-guide-to-data-mining.png
-  category: python
+- title: "Django "
+  subtitle: "Behavior Driven Development with Django and Aloe"
+  text: ""
+  link: "https://github.com/r14r/Django_Behavior-Driven-Development-with-Django-and-Aloe"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_Behavior-Driven-Development-with-Django-and-Aloe/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
 
-#
-- title: "Working with-TDD"
-  subtitle: "Working with-TDD"
-  link: https://github.com/r14r.github.io/Working-with-TDD
-  lang: with-TDD
-  img: working-with-tdd.png
-  category: working
+- title: "Django "
+  subtitle: "Jenkins_Testproject"
+  text: ""
+  link: "https://github.com/r14r/Django_Jenkins_Testproject"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_Jenkins_Testproject/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
 
-#
-- title: "awesome"
-  subtitle: "awesome awesome"
-  link: https://github.com/r14r.github.io/awesome-awesome
-  lang: default
-  img: awesome.png
-  category: awesome
+- title: "Django "
+  subtitle: "PollingApp with Bootstrap"
+  text: ""
+  link: "https://github.com/r14r/Django_PollingApp-with-Bootstrap"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_PollingApp-with-Bootstrap/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
 
-#
-- title: "cli"
-  subtitle: "direnv"
-  link: https://github.com/r14r.github.io/cli_direnv
-  lang: default
-  img: cli.png
-  category: cli
+- title: "Django "
+  subtitle: "PollingApp"
+  text: ""
+  link: "https://github.com/r14r/Django_PollingApp"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_PollingApp/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
 
-#
-- title: "cli"
-  subtitle: "git"
-  link: https://github.com/r14r.github.io/cli_git
-  lang: default
-  img: cli.png
-  category: cli
+- title: "Django "
+  subtitle: "Testproject Jenkins"
+  text: ""
+  link: "https://github.com/r14r/Django_Testproject-Jenkins"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_Testproject-Jenkins/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
 
-#
-- title: "cli"
+- title: "Django "
+  subtitle: "Tutorial Part 1_Building a Django Polls App"
+  text: ""
+  link: "https://github.com/r14r/Django_Tutorial-Part-1_Building-a-Django-Polls-App"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_Tutorial-Part-1_Building-a-Django-Polls-App/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Django "
+  subtitle: "Tutorial Part 2_Styling with Bootstrap"
+  text: ""
+  link: "https://github.com/r14r/Django_Tutorial-Part-2_Styling-with-Bootstrap"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_Tutorial-Part-2_Styling-with-Bootstrap/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Django "
+  subtitle: "Tutorial Part 3_Extending Frontend with Angular"
+  text: ""
+  link: "https://github.com/r14r/Django_Tutorial-Part-3_Extending-Frontend-with-Angular"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_Tutorial-Part-3_Extending-Frontend-with-Angular/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Django "
+  subtitle: "Tutorial_Application using Requests Bower Twitter Bootstrap and Github"
+  text: ""
+  link: "https://github.com/r14r/Django_Tutorial_Application-using-Requests-Bower-Twitter-Bootstrap-and-Github"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_Tutorial_Application-using-Requests-Bower-Twitter-Bootstrap-and-Github/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Django "
+  subtitle: "Working with_Bootstrap"
+  text: ""
+  link: "https://github.com/r14r/Django_Working-with_Bootstrap"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_Working-with_Bootstrap/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Django "
+  subtitle: "Working with_CoreUI"
+  text: ""
+  link: "https://github.com/r14r/Django_Working-with_CoreUI"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_Working-with_CoreUI/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Django "
+  subtitle: "Working with_Django"
+  text: ""
+  link: "https://github.com/r14r/Django_Working-with_Django"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Django_Working-with_Django/"
+  category: "django"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Excel "
+  subtitle: "TDD"
+  text: ""
+  link: "https://github.com/r14r/Excel_TDD"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Excel_TDD/"
+  category: "excel"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Git "
+  subtitle: "Cli"
+  text: ""
+  link: "https://github.com/r14r/Git_Cli"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Git_Cli/"
+  category: "git"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Git "
   subtitle: "git_clone_repositories"
-  link: https://github.com/r14r.github.io/cli_git_clone_repositories
-  lang: default
-  img: cli.png
-  category: cli
+  text: ""
+  link: "https://github.com/r14r/Git_git_clone_repositories"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Git_git_clone_repositories/"
+  category: "git"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
 
-#
-- title: "cubr"
-  subtitle: "cubr"
-  link: https://github.com/r14r.github.io/cubr
-  lang: default
-  img: cubr.png
-  category: cubr
+- title: "Ionic "
+  subtitle: "App from Scratch_Sidemenu_Left_and_Right"
+  text: ""
+  link: "https://github.com/r14r/Ionic_App-from-Scratch_Sidemenu_Left_and_Right"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_App-from-Scratch_Sidemenu_Left_and_Right/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
 
-#
-- title: "dash"
-  subtitle: "dash"
-  link: https://github.com/r14r.github.io/dash
-  lang: default
-  img: dash.png
-  category: dash
+- title: "Ionic "
+  subtitle: "App_Calculator"
+  text: ""
+  link: "https://github.com/r14r/Ionic_App_Calculator"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_App_Calculator/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
 
-#
+- title: "Ionic "
+  subtitle: "App_Conference"
+  text: ""
+  link: "https://github.com/r14r/Ionic_App_Conference"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_App_Conference/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "App_Lissajous"
+  text: ""
+  link: "https://github.com/r14r/Ionic_App_Lissajous"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_App_Lissajous/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "App_Little Big City"
+  text: ""
+  link: "https://github.com/r14r/Ionic_App_Little-Big-City"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_App_Little-Big-City/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "App_Multilevel Sidemenu"
+  text: ""
+  link: "https://github.com/r14r/Ionic_App_Multilevel-Sidemenu"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_App_Multilevel-Sidemenu/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "App_Offline Mode 20190808"
+  text: ""
+  link: "https://github.com/r14r/Ionic_App_Offline-Mode-20190808"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_App_Offline-Mode-20190808/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "App_Threejs"
+  text: ""
+  link: "https://github.com/r14r/Ionic_App_Threejs"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_App_Threejs/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "App_Weather"
+  text: ""
+  link: "https://github.com/r14r/Ionic_App_Weather"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_App_Weather/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Game_Connect4"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Game_Connect4"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Game_Connect4/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Tutorial_Tour of Heroes"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Tutorial_Tour-of-Heroes"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Tutorial_Tour-of-Heroes/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Animations"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Animations"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Animations/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_CSS"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_CSS"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_CSS/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Capacitor"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Capacitor"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Capacitor/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Chartjs"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Chartjs"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Chartjs/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Codepen"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Codepen"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Codepen/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Custom Components"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Custom-Components"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Custom-Components/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_D3.js"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_D3.js"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_D3.js/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_D3.js_Demos"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_D3.js_Demos"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_D3.js_Demos/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Directives"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Directives"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Directives/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Gestures"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Gestures"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Gestures/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Ionic Components"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Ionic-Components"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Ionic-Components/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Ionic Lists"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Ionic-Lists"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Ionic-Lists/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Ionic Native"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Ionic-Native"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Ionic-Native/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Ionic"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Ionic"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Ionic/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_LocalNotifications"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_LocalNotifications"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_LocalNotifications/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Logging"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Logging"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Logging/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_MathJS"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_MathJS"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_MathJS/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_MatterJS"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_MatterJS"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_MatterJS/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_MomentJS"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_MomentJS"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_MomentJS/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_PouchDB"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_PouchDB"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_PouchDB/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_React"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_React"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_React/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Remote API"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Remote-API"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Remote-API/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_RevealJS"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_RevealJS"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_RevealJS/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_RxJS"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_RxJS"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_RxJS/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_SQLite"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_SQLite"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_SQLite/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Services"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Services"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Services/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Slides"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Slides"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Slides/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Splashscreen"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Splashscreen"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Splashscreen/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Storage"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Storage"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Storage/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_ThreeJS"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_ThreeJS"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_ThreeJS/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_Timer"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_Timer"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_Timer/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_UnitTesting"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_UnitTesting"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_UnitTesting/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_jQuery"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_jQuery"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_jQuery/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Ionic "
+  subtitle: "Working with_p5.js"
+  text: ""
+  link: "https://github.com/r14r/Ionic_Working-with_p5.js"
+  lang: ""
+  img: "ionic.png"
+  rep: "Ionic_Working-with_p5.js/"
+  category: "ionic"
+  step: "U1-T2-S2-L1-T2-I3-M#-T#"
+
+- title: "Jenkins "
+  subtitle: "SampleApp_GroovyCalculator"
+  text: ""
+  link: "https://github.com/r14r/Jenkins_SampleApp_GroovyCalculator"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Jenkins_SampleApp_GroovyCalculator/"
+  category: "jenkins"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Python-A-Programmers-Guide-to-Data-Mining"
+  subtitle: ""
+  text: ""
+  link: "https://github.com/r14r/Python-A-Programmers-Guide-to-Data-Mining"
+  lang: "-"
+  img: "placeholder.png"
+  rep: "Python-A-Programmers-Guide-to-Data-Mining/"
+  category: "python-a-programmers-guide-to-data-mining"
+  step: "U1-T2-S1-I#-M1-T1"
+
+- title: "Python "
+  subtitle: "DataMining_A Programmers Guide"
+  text: ""
+  link: "https://github.com/r14r/Python_DataMining_A-Programmers-Guide"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Python_DataMining_A-Programmers-Guide/"
+  category: "python"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Python "
+  subtitle: "TDD_Working with TDD"
+  text: ""
+  link: "https://github.com/r14r/Python_TDD_Working-with-TDD"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Python_TDD_Working-with-TDD/"
+  category: "python"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Python "
+  subtitle: "Working with CI CD"
+  text: ""
+  link: "https://github.com/r14r/Python_Working-with-CI-CD"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Python_Working-with-CI-CD/"
+  category: "python"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Python "
+  subtitle: "Working with Dash"
+  text: ""
+  link: "https://github.com/r14r/Python_Working-with-Dash"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Python_Working-with-Dash/"
+  category: "python"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Python "
+  subtitle: "Working with Django"
+  text: ""
+  link: "https://github.com/r14r/Python_Working-with-Django"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Python_Working-with-Django/"
+  category: "python"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Python "
+  subtitle: "Working with DjangoCRM"
+  text: ""
+  link: "https://github.com/r14r/Python_Working-with-DjangoCRM"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Python_Working-with-DjangoCRM/"
+  category: "python"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Python "
+  subtitle: "Working with TDD"
+  text: ""
+  link: "https://github.com/r14r/Python_Working-with-TDD"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Python_Working-with-TDD/"
+  category: "python"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "Python "
+  subtitle: "Working with_Image Recognition"
+  text: ""
+  link: "https://github.com/r14r/Python_Working-with_Image-Recognition"
+  lang: ""
+  img: "placeholder.png"
+  rep: "Python_Working-with_Image-Recognition/"
+  category: "python"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "ReactJS-Starter"
+  subtitle: ""
+  text: ""
+  link: "https://github.com/r14r/ReactJS-Starter"
+  lang: "-"
+  img: "placeholder.png"
+  rep: "ReactJS-Starter/"
+  category: "reactjs-starter"
+  step: "U1-T2-S1-I#-M1-T1"
+
+- title: "Tutorials mooc"
+  subtitle: "FreeCodeCamp"
+  text: ""
+  link: "https://github.com/r14r/Tutorials-MOOC_FreeCodeCamp"
+  lang: "mooc"
+  img: "placeholder.png"
+  rep: "Tutorials-MOOC_FreeCodeCamp/"
+  category: "tutorials-mooc"
+  step: "U1-T2-S2-L#-T2-I#-M1-T#"
+
+- title: "Working-with-TDD"
+  subtitle: ""
+  text: ""
+  link: "https://github.com/r14r/Working-with-TDD"
+  lang: "-"
+  img: "placeholder.png"
+  rep: "Working-with-TDD/"
+  category: "working-with-tdd"
+  step: "U1-T2-S1-I#-M1-T1"
+
+- title: "awesome-awesome"
+  subtitle: ""
+  text: ""
+  link: "https://github.com/r14r/awesome-awesome"
+  lang: "-"
+  img: "placeholder.png"
+  rep: "awesome-awesome/"
+  category: "awesome-awesome"
+  step: "U1-T2-S1-I#-M1-T1"
+
+- title: "cli "
+  subtitle: "git"
+  text: ""
+  link: "https://github.com/r14r/cli_git"
+  lang: ""
+  img: "placeholder.png"
+  rep: "cli_git/"
+  category: "cli"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
+- title: "cli "
+  subtitle: "git_clone_repositories"
+  text: ""
+  link: "https://github.com/r14r/cli_git_clone_repositories"
+  lang: ""
+  img: "placeholder.png"
+  rep: "cli_git_clone_repositories/"
+  category: "cli"
+  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+
 - title: "datasciencecoursera"
-  subtitle: "datasciencecoursera"
-  link: https://github.com/r14r.github.io/datasciencecoursera
-  lang: default
-  img: datasciencecoursera.png
-  category: practice
+  subtitle: ""
+  text: ""
+  link: "https://github.com/r14r/datasciencecoursera"
+  lang: "-"
+  img: "placeholder.png"
+  rep: "datasciencecoursera/"
+  category: "datasciencecoursera"
+  step: "U1-T2-S1-I#-M1-T1"
 
-#
-- title: "fork"
-  subtitle: "aurelia_samples"
-  link: https://github.com/r14r.github.io/fork_aurelia_samples
-  lang: default
-  img: fork.png
-  category: fork
+- title: "direnv"
+  subtitle: ""
+  text: ""
+  link: "https://github.com/r14r/direnv"
+  lang: "-"
+  img: "placeholder.png"
+  rep: "direnv/"
+  category: "direnv"
+  step: "U1-T2-S1-I#-M1-T1"
 
-#
-- title: "fork"
-  subtitle: "awesome angularjs"
-  link: https://github.com/r14r.github.io/fork_awesome-angularjs
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "awesome_nodejs"
-  link: https://github.com/r14r.github.io/fork_awesome_nodejs
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "coding_interview"
-  link: https://github.com/r14r.github.io/fork_coding_interview
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "common_node"
-  link: https://github.com/r14r.github.io/fork_common_node
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "excel_excelvbaunit"
-  link: https://github.com/r14r.github.io/fork_excel_excelvbaunit
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "excel_tdd"
-  link: https://github.com/r14r.github.io/fork_excel_tdd
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "express_postit"
-  link: https://github.com/r14r.github.io/fork_express_postit
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "express_traider.io"
-  link: https://github.com/r14r.github.io/fork_express_traider.io
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "fonts_monosocialiconsfont"
-  link: https://github.com/r14r.github.io/fork_fonts_monosocialiconsfont
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "foundation_master"
-  link: https://github.com/r14r.github.io/fork_foundation_master
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "icons_WindowsIcons"
-  link: https://github.com/r14r.github.io/fork_icons_WindowsIcons
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "icons_open iconic"
-  link: https://github.com/r14r.github.io/fork_icons_open-iconic
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "ios_Programming iOS-Book-Examples"
-  link: https://github.com/r14r.github.io/fork_ios_Programming-iOS-Book-Examples
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "ios_mdhelper"
-  link: https://github.com/r14r.github.io/fork_ios_mdhelper
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_algorithms in-javascript"
-  link: https://github.com/r14r.github.io/fork_javascript_algorithms-in-javascript
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_async"
-  link: https://github.com/r14r.github.io/fork_javascript_async
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_cms_calipso"
-  link: https://github.com/r14r.github.io/fork_javascript_cms_calipso
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_dsjslib"
-  link: https://github.com/r14r.github.io/fork_javascript_dsjslib
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_invisible"
-  link: https://github.com/r14r.github.io/fork_javascript_invisible
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_isomorph"
-  link: https://github.com/r14r.github.io/fork_javascript_isomorph
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_isomorphic react-example"
-  link: https://github.com/r14r.github.io/fork_javascript_isomorphic-react-example
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_isomorphic_tutorial"
-  link: https://github.com/r14r.github.io/fork_javascript_isomorphic_tutorial
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_js toolbox"
-  link: https://github.com/r14r.github.io/fork_javascript_js-toolbox
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_js_the_right_way"
-  link: https://github.com/r14r.github.io/fork_javascript_js_the_right_way
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_lodash"
-  link: https://github.com/r14r.github.io/fork_javascript_lodash
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_nodeunit"
-  link: https://github.com/r14r.github.io/fork_javascript_nodeunit
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_react router-mega-demo"
-  link: https://github.com/r14r.github.io/fork_javascript_react-router-mega-demo
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_scripted"
-  link: https://github.com/r14r.github.io/fork_javascript_scripted
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_strapdown"
-  link: https://github.com/r14r.github.io/fork_javascript_strapdown
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_uikit"
-  link: https://github.com/r14r.github.io/fork_javascript_uikit
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "javascript_webscrap_pjscrape"
-  link: https://github.com/r14r.github.io/fork_javascript_webscrap_pjscrape
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "machinelearning_viennajs predictionio"
-  link: https://github.com/r14r.github.io/fork_machinelearning_viennajs-predictionio
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "nodejs_form_nodeunit_nodeunit_dsl"
-  link: https://github.com/r14r.github.io/fork_nodejs_form_nodeunit_nodeunit_dsl
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "nodejs_fwd_node_client"
-  link: https://github.com/r14r.github.io/fork_nodejs_fwd_node_client
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "nodejs_nodeshop"
-  link: https://github.com/r14r.github.io/fork_nodejs_nodeshop
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "nodejs_nodetoolbox"
-  link: https://github.com/r14r.github.io/fork_nodejs_nodetoolbox
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "nodejs_ottemo_node_experiment"
-  link: https://github.com/r14r.github.io/fork_nodejs_ottemo_node_experiment
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "nodejs_wheat"
-  link: https://github.com/r14r.github.io/fork_nodejs_wheat
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "python_numerical_mooc"
-  link: https://github.com/r14r.github.io/fork_python_numerical_mooc
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "r_shiny"
-  link: https://github.com/r14r.github.io/fork_r_shiny
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "raspberry_pi_gpio"
-  link: https://github.com/r14r.github.io/fork_raspberry_pi_gpio
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "raspberry_quick2wire gpio-admin"
-  link: https://github.com/r14r.github.io/fork_raspberry_quick2wire-gpio-admin
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "swift_intro playgrounds"
-  link: https://github.com/r14r.github.io/fork_swift_intro-playgrounds
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "tutorials_ShapingUpWithAngular.js"
-  link: https://github.com/r14r.github.io/fork_tutorials_ShapingUpWithAngular.js
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "tutorials_freecodecamp"
-  link: https://github.com/r14r.github.io/fork_tutorials_freecodecamp
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "webpresentation_73rhodes"
-  link: https://github.com/r14r.github.io/fork_webpresentation_73rhodes
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "xcode_IBDesignable Demo"
-  link: https://github.com/r14r.github.io/fork_xcode_IBDesignable-Demo
-  lang: default
-  img: fork.png
-  category: fork
-
-#
-- title: "fork"
-  subtitle: "xcode_xassets_script"
-  link: https://github.com/r14r.github.io/fork_xcode_xassets_script
-  lang: default
-  img: fork.png
-  category: fork
-
-#

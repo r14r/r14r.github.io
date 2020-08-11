@@ -1,14 +1,26 @@
 # Site
-name: "Ralph Göstenmeier"
-description: "Entwickler, Architekt, Open Source Enthusiast"
+name: "r14r"
+title: "r14r"
+description: "r14r - Tips, Tricks, Samples and more"
 baseurl: "/"
+url: "https://r14r.github.io"
+url_noprotocol: { { site.url | replace: "http://", "//" } }
 
 include: ["_pages"]
 #permalink: /:title/
 
+#plugins:
+#  - jekyll-feed
+#  - jekyll-sitemap
+#  - jekyll-paginate
+#  - jekyll-seo-tag
+
 # Syntax
 markdown: kramdown
 highlighter: rouge
+
+# Pagination
+#paginate: 20
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude:

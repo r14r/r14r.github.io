@@ -1,0 +1,18 @@
+{% assign pages = site.url  | append:  '/' | append: site.baseurl | append: '/pages' %}
+{% assign images = site.url | append:  '/' | append: site.baseurl | append: '/assets/img/services' %}
+
+{% if page.headerimage == "yes" %}
+<img class="img-fluid rounded mb-4" src="{{ images }}/header.jpg" alt="">
+{% endif %}
+
+<div class="row">
+    {% for item in site.data.services %}
+    <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+            <h4 class="card-header">{{ item.title }}</h4>
+            <div class="card-body"><p class="card-text">{{ item.text | markdownify }}</p></div>
+            <div class="card-footer"> <a href="{{ pages }}/{{ item.link }}" class="btn btn-primary">Learn More</a></div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

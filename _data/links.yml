@@ -1,3 +1,19 @@
+- title: 'CSS Examples'
+  subtitle: 'Free CSS Examples'
+  description: 'Free CSS examples — copy & paste code for your website.'
+  link: https://www.quackit.com/css/examples/
+  lang: css
+  img: css.png
+  category: link
+
+- title: 'Quackit'
+  subtitle: 'HTML CSS Script DB'
+  description: 'HTML - CSS - Scripting - Database'
+  link: https://www.quackit.com/css/
+  lang: default
+  img: quackit.png
+  category: link
+
 - title: 'JavaScript-Referenz'
   subtitle: 'Mozilla Developer Network - Javascript Referenz'
   description: 'Die JavaScript Referenz dient als Faktensammlung über die JavaScript Sprache. Hier wird die gesamte Sprache im Detail beschrieben.'

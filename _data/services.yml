@@ -1,19 +1,17 @@
-- title: Learn
+- title: Developer
   img: 1.jpg
-  subtitle: 
+  subtitle: ""
   link: "learn.html"
-  text: "Learn with online samples and course"
+  text: "Plan, Develop, Test and Deploy"
 
-- title: Practice
+- title: Architect
   img: 2.jpg
   subtitle: ""
   link: "practice.html"
-  text: "Practice, Practice, Practice"
+  text: "Design and Build Fullstack /BI Solutions"
 
-- title: Test
+- title: Teamworker
   img: 1.jpg
   subtitle: ""
   link: "test.html"
-  text: "Test your code with Unit testing and Koans."
-
-
+  text: "Work in a team to find the best solution using the right tools"

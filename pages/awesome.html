@@ -16,11 +16,11 @@ title: Awesome Links and Apps
     {% include component/breadcrumb.html %}
 
     <div class="row">
-        {% assign items = site.data.awesome | where: "category", "awesome" | sort: "title" %}
+        {% assign items = site.data.awesome | sort: "title" %}
         {% for item in items %}
         <div class="{{ colclass }} portfolio-item">
             <div class="card h-100">
-                <a href="{{ item.link }}""><img class=" img-fluid rounded mb-3 mb-md-0" src="{{ images }}/{{ item.img | downcase }}" alt=""></a>
+                <a href="{{ item.link }}"><img class=" img-fluid rounded mb-3 mb-md-0" src="{{ images }}/{{ item.img | downcase }}" alt=""></a>
                 <div class="card-body">
                     <h4 class="card-title"><a href="{{ item.link }}">{{ item.title }}</a></h4>
                     <h5>{{ item.subtitle }}</h5>
