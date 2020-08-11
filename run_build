@@ -11,7 +11,7 @@ _FLDR_CLOUD=/Users/Shared/CLOUD
 _FLDR_GIT=$_FLDR_CLOUD/Development.Resources/img.github.io
 _FLDR_IMG=../${_USER}.github.io/assets/img
 
-LOGL=2
+LOGL=4
 LOGPOS=10
 LOG() {
 	local _LOGL; _LOGL="$1";	shift

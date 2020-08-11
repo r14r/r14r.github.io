@@ -653,10 +653,10 @@
   text: ""
   link: "https://github.com/r14r/Jenkins_SampleApp_GroovyCalculator"
   lang: ""
-  img: "placeholder.png"
+  img: "jenkins.png"
   rep: "Jenkins_SampleApp_GroovyCalculator/"
   category: "jenkins"
-  step: "U1-T2-S2-L1-T2-I#-M1-T#"
+  step: "U1-T2-S2-L1-T2-I4-M#-T#"
 
 - title: "Python-A-Programmers-Guide-to-Data-Mining"
   subtitle: ""
@@ -823,8 +823,8 @@
   text: ""
   link: "https://github.com/r14r/direnv"
   lang: "-"
-  img: "placeholder.png"
+  img: "direnv.png"
   rep: "direnv/"
   category: "direnv"
-  step: "U1-T2-S1-I#-M1-T1"
+  step: "U1-T2-S1-I2-M#-T1"
 
