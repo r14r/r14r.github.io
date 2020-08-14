@@ -2,7 +2,6 @@
   subtitle: "Free CSS Examples"
   description: "Free CSS examples — copy & paste code for your website."
   link: https://www.quackit.com/css/examples/
-  lang: css
   img: css.png
   category: css
 
@@ -10,7 +9,6 @@
   subtitle: "HTML CSS Script DB"
   description: "HTML - CSS - Scripting - Database"
   link: https://www.quackit.com/css/
-  lang: html
   img: quackit.png
   category: html
 
@@ -18,7 +16,6 @@
   subtitle: "Mozilla Developer Network - Javascript Referenz"
   description: "Die JavaScript Referenz dient als Faktensammlung über die JavaScript Sprache. Hier wird die gesamte Sprache im Detail beschrieben."
   link: https://developer.mozilla.org/de/docs/Web/JavaScript/Reference
-  lang: Javascript
   img: javascript.png
   category: javascript
 
@@ -26,7 +23,6 @@
   subtitle: "Delightful JavaScript Testing Framework with a focus on simplicity"
   description: "Delightful JavaScript Testing Framework with a focus on simplicity"
   link: https://jestjs.io
-  lang: Javascript
   img: javascript.png
   category: javascript
 
@@ -34,14 +30,12 @@
   subtitle: "NextJS - A progressive Node.js framework"
   description: "NestJS - A progressive Node.js framework"
   link: https://nextjs.org
-  lang: Javascript
-  img: javascript.png
+  img: nextjs.png
   category: javascript
 
 - title: "Nest JS"
-  subtitle: ""
+  subtitle: "Progressive Node.js framework for building efficient, reliable and scalable server-side applications"
   description: "Progressive Node.js framework for building efficient, reliable and scalable server-side applications."
   link: https://nestjs.com
-  lang: Javascript
-  img: javascript.png
+  img: nestjs.png
   category: javascript

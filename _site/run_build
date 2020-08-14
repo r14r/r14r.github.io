@@ -1,0 +1,204 @@
+#!/usr/local/bin/bash
+
+#set -u
+
+_LINK_GITHUB=https://github.com
+
+_USER="$(basename "$(dirname "$PWD")")"
+_HERE="$(cd ..; pwd)"
+
+_FLDR_CLOUD=/Users/Shared/CLOUD
+_FLDR_GIT=$_FLDR_CLOUD/Development.Resources/img.github.io
+_FLDR_IMG=../${_USER}.github.io/assets/img
+
+LOGL=2
+LOGPOS=10
+LOG() {
+	local _LOGL; _LOGL="$1";	shift
+	local _PAR1; _PAR1="$1"; 	shift
+	local _PAR2; _PAR2="$*"
+
+	(( LOGPOS = $LOGPOS + 1))
+
+	if  [[ $_LOGL -le $LOGL ]]; then
+		printf "# %4s: %-20s =%s\n" "$LOGPOS" "$_PAR1" "$_PAR2"
+		printf "# %4s: %-20s =%s\n" "$LOGPOS" "$_PAR1" "$_PAR2" >&2
+	fi
+}
+
+LOG_NEWLINE() {
+	if  [[ $LOGL -gt 2 ]]; then
+		printf "\n" >&2
+	fi
+}
+ADD() {
+	local _PAR1; _PAR1="${1}";
+	local _PAR2; _PAR2="${2:- }"
+
+	echo "${_PAR1} ${_PAR2}"
+}
+
+LOG 1 "Scanning repositories" "$_HERE"
+
+for _THISREP in $(ls -1dF ../* | grep -v -E 'github.io|bin' | grep -E '[\@/]$' | sort)
+do
+	LOGPOS=0
+
+	LOG_NEWLINE
+	LOG 2 "REPO" "$_THISREP"
+
+	_REPO="$(basename "$_THISREP" | tr -d '@')"
+
+	_TEMP="${_HERE}/${_REPO}"
+	if [[ -h "${_TEMP}" ]]; then
+		_TEMP="$(readlink "${_TEMP}")"
+
+		_REPO="${_TEMP##*/}"	# basename
+		_TEMP="${_TEMP%/*}"		# dirname
+
+		_USER="${_TEMP##*/}"
+	fi
+	LOG 2 "TEMP" "$_TEMP"
+	LOG 2 "REPO" "$_REPO"
+
+	_TEMP="${_REPO%%_*}"							# Learning-TypeScript
+
+	LOG 4 "HERE" "$_HERE"
+	LOG 4 "REPO" "$_REPO"
+	LOG 4 "TEMP" "$_TEMP"
+	LOG 4 "USER" "$_USER"
+
+	_REALPATH="$(readlink "$_THISREP")"
+	_REALPATH="${_REALPATH#*repositories/}"
+	LOG 4 "PATH" "$_REALPATH"
+
+	if [[ "$_REALPATH" = "" ]]; then
+		_THISUSR="$_USER"
+	else
+		_THISUSR="$(dirname "$_REALPATH")"
+	fi
+	LOG 4 "THISUSR" "$_THISUSR"
+
+	_LINK="$_LINK_GITHUB/$_THISUSR/$_REPO"
+	LOG 4 "LINK" "$_LINK"
+
+	if [[ -f "$_THISREP/DESCRIPTION" ]]; then
+		_TEXT=$(cat "$_THISREP/DESCRIPTION" | sed '1,$s/$/\<br\>/g')
+	else
+		_TEXT=""
+	fi
+	LOG 4 "TEXT" "$_TEXT"
+
+	_TITLE="missing"
+	_LANG="-"
+	_IMAGE="placeholder.png"
+
+	_CATEGORY="${_TEMP,,}"
+
+	LOG 4 "CHECK" "$_TEMP / $_REPO"
+	if [[ "$_TEMP" == "$_REPO" ]]; then
+		LOG 4 "SAME" "$_TEMP / $_REPO"
+		_SUBTITLE="$_TEMP"
+	else
+		_SUBTITLE="${_REPO#*_}"			# DataStructures-and-Algorithms-01
+		_SUBTITLE="${_SUBTITLE//-/ }"	# DataStructures and Algorithms 01
+
+		_TYPE="${_TEMP%%-*}"
+		_LANG="${_TEMP#*-}"
+		_LANG="${_LANG,,}"
+
+		LOG 4 "SUBTITLE" "$_SUBTITLE"
+		LOG 4 "TYPE"     "$_TYPE"
+		LOG 4 "LANG"     "$_LANG"
+
+		if [[ "${_LANG}" == "${_TYPE,,}" ]]; then
+			_LANG=""
+		fi
+
+		LOG 4 "LANG" "$_LANG"
+
+		if [[ "$_TYPE" = "$_LANG" ]]; then
+			_TITLE="$_TYPE"
+			LOG 4 "TITLE" "$_TITLE"
+
+		else
+			_TITLE="$_TYPE $_LANG"
+			LOG 4 "TITLE" "$_TITLE"
+		fi
+
+		[[ "$_CATEGORY" =~ "missing"	]] && _CATEGORY=missing
+		[[ "$_CATEGORY" =~ "learning"	]] && _CATEGORY=learn
+		[[ "$_CATEGORY" =~ "awesome"	]] && _CATEGORY=learn
+		[[ "$_CATEGORY" =~ "koans"		]] && _CATEGORY=test
+		[[ "$_CATEGORY" =~ "course"		]] && _CATEGORY=practice
+		[[ "$_CATEGORY" =~ "workshop"	]] && _CATEGORY=practice
+
+		LOG 4 "CATEGORY/IM" "$_CATEGORY / $_IMAGE"
+	fi
+
+	LOG 2 "CATEGORY" "$_CATEGORY"
+	LOG 2 "SUBTITLE" "$_SUBTITLE"
+
+    _IMAGE="${_SUBTITLE/ /-}.png"
+    _IMAGE="${_IMAGE,,}"
+
+	LOG 3 "check image" "$_FLDR_IMG/$_IMAGE"
+	LOG 3 "           " "$_FLDR_GIT/$_IMAGE"
+	if   [[ -f "$_FLDR_IMG/$_IMAGE" ]]; then
+		LOG 3 "use existing" "$_FLDR_IMG/$_IMAGE"
+	elif [[ -f "$_FLDR_GIT/$_IMAGE" ]]; then
+		cp "$_FLDR_GIT/$_IMAGE" "$_FLDR_IMG"
+		LOG 3 "copy master" "$_FLDR_GIT/$_IMAGE"
+	else
+		_IMAGE="${_CATEGORY/ /-}.png"
+		_IMAGE="${_IMAGE,,}"
+		LOG 3 "check new" "$_FLDR_IMG/$_IMAGE"
+		LOG 3 "         " "$_FLDR_GIT/$_IMAGE"
+
+		if   [[ -f "$_FLDR_IMG/$_IMAGE" ]]; then
+			LOG 3 "use new" "$_FLDR_IMG/$_IMAGE"
+		elif [[ -f "$_FLDR_GIT/$_IMAGE" ]]; then
+			LOG 1 "copy new" "$_FLDR_GIT/$_IMAGE $_FLDR_IMG"
+			cp "$_FLDR_GIT/$_IMAGE" "$_FLDR_IMG"
+		else
+			:
+		fi
+	fi
+
+	if   [[ -f "$_FLDR_IMG/$_IMAGE" ]]; then
+		:
+	else
+		LOG 3 "use placeholder for" "$_FLDR_IMG/$_IMAGE"
+		_IMAGE="placeholder.png"
+	fi
+
+	if [[ "$_TITLE" == "missing" ]]; then
+		_TITLE="$_SUBTITLE"
+		_SUBTITLE=""
+	fi
+
+	_TITLE="${_TITLE/css/CSS}"
+	_TITLE="${_TITLE/html/HTML}"
+	_TITLE="${_TITLE/javascript/Javascript}"
+	_TITLE="${_TITLE/typescript/Typescript}"
+	_TITLE="${_TITLE/ionic/Ionic}"
+	_TITLE="${_TITLE/angular/Angular}"
+	_TITLE="${_TITLE/docker/Docker}"
+	_TITLE="${_TITLE/jenkins/Jenkins}"
+	_TITLE="${_TITLE/python/Python}"
+	_TITLE="${_TITLE/ math/ Math}"
+
+	LOG 4 "TITLE" "$_TITLE"
+
+	ADD "- title:"		"\"$_TITLE\""
+	ADD "  subtitle:"	"\"$_SUBTITLE\""
+	ADD "  text:"		"\"$_TEXT\""
+	ADD "  link:"		"\"$_LINK\""
+	ADD "  lang:"		"\"$_LANG\""
+	ADD "  img:"		"\"${_IMAGE,,}\""
+	ADD "  rep:"		"\"${_THISREP/\.\.\//}\""
+	ADD "  category:"	"\"${_CATEGORY}\""
+	echo ""
+	echo "#"
+
+done | grep -v -E '^#' | cat > _data/repositories.yml
