@@ -11,7 +11,7 @@ _FLDR_CLOUD=/Users/Shared/CLOUD
 _FLDR_GIT=$_FLDR_CLOUD/Development.Resources/img.github.io
 _FLDR_IMG=../${_USER}.github.io/assets/img
 
-LOGL=2
+LOGL=1
 LOGPOS=10
 LOG() {
 	local _LOGL; _LOGL="$1";	shift
@@ -27,7 +27,7 @@ LOG() {
 }
 
 LOG_NEWLINE() {
-	if  [[ $LOGL -gt 2 ]]; then
+	if  [[ $LOGL -gt 1 ]]; then
 		printf "\n" >&2
 	fi
 }
@@ -45,7 +45,7 @@ do
 	LOGPOS=0
 
 	LOG_NEWLINE
-	LOG 2 "REPO" "$_THISREP"
+	LOG 4 "THISREPO" "$_THISREP"
 
 	_REPO="$(basename "$_THISREP" | tr -d '@')"
 
@@ -58,28 +58,15 @@ do
 
 		_USER="${_TEMP##*/}"
 	fi
-	LOG 2 "TEMP" "$_TEMP"
-	LOG 2 "REPO" "$_REPO"
-
+	
 	_TEMP="${_REPO%%_*}"							# Learning-TypeScript
 
 	LOG 4 "HERE" "$_HERE"
-	LOG 4 "REPO" "$_REPO"
+	LOG 2 "REPO" "$_REPO"
 	LOG 4 "TEMP" "$_TEMP"
 	LOG 4 "USER" "$_USER"
 
-	_REALPATH="$(readlink "$_THISREP")"
-	_REALPATH="${_REALPATH#*repositories/}"
-	LOG 4 "PATH" "$_REALPATH"
-
-	if [[ "$_REALPATH" = "" ]]; then
-		_THISUSR="$_USER"
-	else
-		_THISUSR="$(dirname "$_REALPATH")"
-	fi
-	LOG 4 "THISUSR" "$_THISUSR"
-
-	_LINK="$_LINK_GITHUB/$_THISUSR/$_REPO"
+	_LINK="$_LINK_GITHUB/$_USER/$_REPO"
 	LOG 4 "LINK" "$_LINK"
 
 	if [[ -f "$_THISREP/DESCRIPTION" ]]; then
@@ -91,69 +78,47 @@ do
 
 	_TITLE="missing"
 	_LANG="-"
-	_IMAGE="placeholder.png"
+	_IMAGE="placeholder2.png"
 
-	_CATEGORY="${_TEMP,,}"
+	#
+	#
+	#
+	_PART1="$(echo $_REPO | cut -d_ -f1)"
+	_PART2="$(echo $_REPO | cut -d_ -f2)"
+	_PART3="$(echo $_REPO | cut -d_ -f3-)"
 
-	LOG 4 "CHECK" "$_TEMP / $_REPO"
-	if [[ "$_TEMP" == "$_REPO" ]]; then
-		LOG 4 "SAME" "$_TEMP / $_REPO"
-		_SUBTITLE="$_TEMP"
-	else
-		_SUBTITLE="${_REPO#*_}"			# DataStructures-and-Algorithms-01
-		_SUBTITLE="${_SUBTITLE//-/ }"	# DataStructures and Algorithms 01
+	LOG 1 "PARTs" "$_PART1 / $_PART2 / $_PART3"
 
-		_TYPE="${_TEMP%%-*}"
-		_LANG="${_TEMP#*-}"
-		_LANG="${_LANG,,}"
+	_CATEGORY="${_PART1,,}"
 
-		LOG 4 "SUBTITLE" "$_SUBTITLE"
-		LOG 4 "TYPE"     "$_TYPE"
-		LOG 4 "LANG"     "$_LANG"
+	_SUBTITLE="${_PART2// /-}"
+	_SUBTITLE="${_SUBTITLE,,}"
 
-		if [[ "${_LANG}" == "${_TYPE,,}" ]]; then
-			_LANG=""
-		fi
+	_LANG="${_PART1,,}"
 
-		LOG 4 "LANG" "$_LANG"
+	[[ "$_CATEGORY" =~ "missing"	]] && _CATEGORY=missing
+	[[ "$_CATEGORY" =~ "learning"	]] && _CATEGORY=learn
+	[[ "$_CATEGORY" =~ "awesome"	]] && _CATEGORY=learn
+	[[ "$_CATEGORY" =~ "koans"		]] && _CATEGORY=test
+	[[ "$_CATEGORY" =~ "course"		]] && _CATEGORY=practice
+	[[ "$_CATEGORY" =~ "workshop"	]] && _CATEGORY=practice
 
-		if [[ "$_TYPE" = "$_LANG" ]]; then
-			_TITLE="$_TYPE"
-			LOG 4 "TITLE" "$_TITLE"
-
-		else
-			_TITLE="$_TYPE $_LANG"
-			LOG 4 "TITLE" "$_TITLE"
-		fi
-
-		[[ "$_CATEGORY" =~ "missing"	]] && _CATEGORY=missing
-		[[ "$_CATEGORY" =~ "learning"	]] && _CATEGORY=learn
-		[[ "$_CATEGORY" =~ "awesome"	]] && _CATEGORY=learn
-		[[ "$_CATEGORY" =~ "koans"		]] && _CATEGORY=test
-		[[ "$_CATEGORY" =~ "course"		]] && _CATEGORY=practice
-		[[ "$_CATEGORY" =~ "workshop"	]] && _CATEGORY=practice
-
-		LOG 4 "CATEGORY/IM" "$_CATEGORY / $_IMAGE"
-	fi
-
-	LOG 2 "CATEGORY" "$_CATEGORY"
-	LOG 2 "SUBTITLE" "$_SUBTITLE"
+	LOG 1 "CAT/SUB" "$_CATEGORY / $_SUBTITLE"
 
     _IMAGE="${_SUBTITLE/ /-}.png"
     _IMAGE="${_IMAGE,,}"
 
-	LOG 3 "check image" "$_FLDR_IMG/$_IMAGE"
-	LOG 3 "           " "$_FLDR_GIT/$_IMAGE"
+	LOG 1 "image: check" "$_IMAGE: $_FLDR_IMG/$_IMAGE, $_FLDR_GIT/$_IMAGE"
 	if   [[ -f "$_FLDR_IMG/$_IMAGE" ]]; then
-		LOG 3 "use existing" "$_FLDR_IMG/$_IMAGE"
+		LOG 1 "image: existing" "$_FLDR_IMG/$_IMAGE"
 	elif [[ -f "$_FLDR_GIT/$_IMAGE" ]]; then
 		cp "$_FLDR_GIT/$_IMAGE" "$_FLDR_IMG"
-		LOG 3 "copy master" "$_FLDR_GIT/$_IMAGE"
+		LOG 1 "image: master" "$_FLDR_GIT/$_IMAGE"
 	else
 		_IMAGE="${_CATEGORY/ /-}.png"
 		_IMAGE="${_IMAGE,,}"
-		LOG 3 "check new" "$_FLDR_IMG/$_IMAGE"
-		LOG 3 "         " "$_FLDR_GIT/$_IMAGE"
+
+		LOG 1 "image: new" "$_IMAGE: $_FLDR_IMG/$_IMAGE, $_FLDR_GIT/$_IMAGE"
 
 		if   [[ -f "$_FLDR_IMG/$_IMAGE" ]]; then
 			LOG 3 "use new" "$_FLDR_IMG/$_IMAGE"
@@ -166,10 +131,12 @@ do
 	fi
 
 	if   [[ -f "$_FLDR_IMG/$_IMAGE" ]]; then
-		:
+		LOG 1 "USE" "$_FLDR_IMG/$_IMAGE"
 	else
-		LOG 3 "use placeholder for" "$_FLDR_IMG/$_IMAGE"
-		_IMAGE="placeholder.png"
+		_OLD_IMAGE=$_IMAGE
+		_IMAGE="placeholderX.png"
+		
+		LOG 1 "USE placeholder for" "$_FLDR_IMG / $_IMAGE | $_OLD_IMAGE"
 	fi
 
 	if [[ "$_TITLE" == "missing" ]]; then

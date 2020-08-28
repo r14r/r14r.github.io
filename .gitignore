@@ -1,2 +1,4 @@
 .env/
 .jekyll-cache/
+
+_site
