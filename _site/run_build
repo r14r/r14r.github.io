@@ -38,7 +38,7 @@ ADD() {
 	echo "${_PAR1} ${_PAR2}"
 }
 
-LOG 1 "Scanning repositories" "$_HERE"
+LOG 2 "Scanning repositories" "$_HERE"
 
 for _THISREP in $(ls -1dF ../* | grep -v -E 'github.io|bin' | grep -E '[\@/]$' | sort)
 do
@@ -87,7 +87,7 @@ do
 	_PART2="$(echo $_REPO | cut -d_ -f2)"
 	_PART3="$(echo $_REPO | cut -d_ -f3-)"
 
-	LOG 1 "PARTs" "$_PART1 / $_PART2 / $_PART3"
+	LOG 2 "PARTs" "$_PART1 / $_PART2 / $_PART3"
 
 	_CATEGORY="${_PART1,,}"
 
@@ -103,14 +103,14 @@ do
 	[[ "$_CATEGORY" =~ "course"		]] && _CATEGORY=practice
 	[[ "$_CATEGORY" =~ "workshop"	]] && _CATEGORY=practice
 
-	LOG 1 "CAT/SUB" "$_CATEGORY / $_SUBTITLE"
+	LOG 2 "CAT/SUB" "$_CATEGORY / $_SUBTITLE"
 
     _IMAGE="${_SUBTITLE/ /-}.png"
     _IMAGE="${_IMAGE,,}"
 
 	LOG 1 "image: check" "$_IMAGE: $_FLDR_IMG/$_IMAGE, $_FLDR_GIT/$_IMAGE"
 	if   [[ -f "$_FLDR_IMG/$_IMAGE" ]]; then
-		LOG 1 "image: existing" "$_FLDR_IMG/$_IMAGE"
+		LOG 2 "image: existing" "$_FLDR_IMG/$_IMAGE"
 	elif [[ -f "$_FLDR_GIT/$_IMAGE" ]]; then
 		cp "$_FLDR_GIT/$_IMAGE" "$_FLDR_IMG"
 		LOG 1 "image: master" "$_FLDR_GIT/$_IMAGE"
@@ -121,7 +121,7 @@ do
 		LOG 1 "image: new" "$_IMAGE: $_FLDR_IMG/$_IMAGE, $_FLDR_GIT/$_IMAGE"
 
 		if   [[ -f "$_FLDR_IMG/$_IMAGE" ]]; then
-			LOG 3 "use new" "$_FLDR_IMG/$_IMAGE"
+			LOG 1 "use new" "$_FLDR_IMG/$_IMAGE"
 		elif [[ -f "$_FLDR_GIT/$_IMAGE" ]]; then
 			LOG 1 "copy new" "$_FLDR_GIT/$_IMAGE $_FLDR_IMG"
 			cp "$_FLDR_GIT/$_IMAGE" "$_FLDR_IMG"
@@ -136,7 +136,7 @@ do
 		_OLD_IMAGE=$_IMAGE
 		_IMAGE="placeholderX.png"
 		
-		LOG 1 "USE placeholder for" "$_FLDR_IMG / $_IMAGE | $_OLD_IMAGE"
+		LOG 1 " USE placeholder for" "$_FLDR_IMG / $_IMAGE | $_OLD_IMAGE"
 	fi
 
 	if [[ "$_TITLE" == "missing" ]]; then
