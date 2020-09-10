@@ -108,22 +108,22 @@ do
     _IMAGE="${_SUBTITLE/ /-}.png"
     _IMAGE="${_IMAGE,,}"
 
-	LOG 1 "image: check" "$_IMAGE: $_FLDR_IMG/$_IMAGE, $_FLDR_GIT/$_IMAGE"
+	LOG 3 "image: check" "$_IMAGE: $_FLDR_IMG/$_IMAGE, $_FLDR_GIT/$_IMAGE"
 	if   [[ -f "$_FLDR_IMG/$_IMAGE" ]]; then
 		LOG 2 "image: existing" "$_FLDR_IMG/$_IMAGE"
 	elif [[ -f "$_FLDR_GIT/$_IMAGE" ]]; then
 		cp "$_FLDR_GIT/$_IMAGE" "$_FLDR_IMG"
-		LOG 1 "image: master" "$_FLDR_GIT/$_IMAGE"
+		LOG 3 "image: master" "$_FLDR_GIT/$_IMAGE"
 	else
 		_IMAGE="${_CATEGORY/ /-}.png"
 		_IMAGE="${_IMAGE,,}"
 
-		LOG 1 "image: new" "$_IMAGE: $_FLDR_IMG/$_IMAGE, $_FLDR_GIT/$_IMAGE"
+		LOG 3 "image: new" "$_IMAGE: $_FLDR_IMG/$_IMAGE, $_FLDR_GIT/$_IMAGE"
 
 		if   [[ -f "$_FLDR_IMG/$_IMAGE" ]]; then
-			LOG 1 "use new" "$_FLDR_IMG/$_IMAGE"
+			LOG 3 "use new" "$_FLDR_IMG/$_IMAGE"
 		elif [[ -f "$_FLDR_GIT/$_IMAGE" ]]; then
-			LOG 1 "copy new" "$_FLDR_GIT/$_IMAGE $_FLDR_IMG"
+			LOG 3 "copy new" "$_FLDR_GIT/$_IMAGE $_FLDR_IMG"
 			cp "$_FLDR_GIT/$_IMAGE" "$_FLDR_IMG"
 		else
 			:
@@ -131,12 +131,12 @@ do
 	fi
 
 	if   [[ -f "$_FLDR_IMG/$_IMAGE" ]]; then
-		LOG 1 "USE" "$_FLDR_IMG/$_IMAGE"
+		LOG 3 "USE" "$_FLDR_IMG/$_IMAGE"
 	else
 		_OLD_IMAGE=$_IMAGE
-		_IMAGE="placeholderX.png"
+		_IMAGE="placeholder.png"
 		
-		LOG 1 "USE placeholder for" "$_FLDR_IMG / $_IMAGE | $_OLD_IMAGE"
+		LOG 3 "USE placeholder for" "$_FLDR_IMG / $_IMAGE | $_OLD_IMAGE"
 	fi
 
 	if [[ "$_TITLE" == "missing" ]]; then
@@ -157,14 +157,20 @@ do
 
 	LOG 4 "TITLE" "$_TITLE"
 
+	_THISREP="${_THISREP/\.\.\//}"
+
 	ADD "- title:"		"\"$_TITLE\""
 	ADD "  subtitle:"	"\"$_SUBTITLE\""
 	ADD "  text:"		"\"$_TEXT\""
 	ADD "  link:"		"\"$_LINK\""
 	ADD "  lang:"		"\"$_LANG\""
 	ADD "  img:"		"\"${_IMAGE,,}\""
-	ADD "  rep:"		"\"${_THISREP/\.\.\//}\""
+	ADD "  rep:"		"\"${_THISREP}\""
+	ADD "  part1:"		"\"${_PART1}\""
+	ADD "  part2:"		"\"${_PART2}\""
+	ADD "  part3:"		"\"${_PART3}\""
 	ADD "  category:"	"\"${_CATEGORY}\""
+
 	echo ""
 	echo "#"
 
