@@ -157,7 +157,9 @@ do
 
 	LOG 4 "TITLE" "$_TITLE"
 
-	_THISREP="${_THISREP/\.\.\//}"
+	_PART3="${_PART3/\.\.\//}"
+	_PART3="${_PART3/\-/ }"
+	_PART3="${_PART3/\_/ }"
 
 	ADD "- title:"		"\"$_TITLE\""
 	ADD "  subtitle:"	"\"$_SUBTITLE\""
