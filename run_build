@@ -136,7 +136,7 @@ do
 		_OLD_IMAGE=$_IMAGE
 		_IMAGE="placeholderX.png"
 		
-		LOG 1 " USE placeholder for" "$_FLDR_IMG / $_IMAGE | $_OLD_IMAGE"
+		LOG 1 "USE placeholder for" "$_FLDR_IMG / $_IMAGE | $_OLD_IMAGE"
 	fi
 
 	if [[ "$_TITLE" == "missing" ]]; then

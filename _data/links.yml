@@ -18,14 +18,14 @@
   link: https://developer.mozilla.org/de/docs/Web/JavaScript
   img: javascript.png
   category: javascript
-  
-  
+
 - title: "JavaScript-Re-Introduction"
   subtitle: "Mozilla Developer Network - Javascript Referenz"
   description: "A re-introduction to JavaScript (JS tutorial)"
   link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
   img: javascript.png
   category: javascript
+
 - title: "JavaScript -Testing"
   subtitle: "Delightful JavaScript Testing Framework with a focus on simplicity"
   description: "Delightful JavaScript Testing Framework with a focus on simplicity"
