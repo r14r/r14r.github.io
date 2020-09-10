@@ -1,8 +1,6 @@
 {
   "editor.formatOnSave": true,
   "files.exclude": {
-    ".envrc": true,
-    "**/.env": true,
-    "**/.env.*": true
+
   }
 }
