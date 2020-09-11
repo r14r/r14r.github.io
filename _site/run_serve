@@ -1,6 +1,0 @@
-#!/usr/local/bin/bash
-
-rm -rf _site
-./run_build
-
-jekyll serve --watch --incremental $*

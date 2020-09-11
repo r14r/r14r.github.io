@@ -1,6 +1,6 @@
 .env.d.IGNORE/
 
-_site
+_siteX
 
 .jekyll-metadata
 .jekyll-cache/
