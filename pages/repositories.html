@@ -24,7 +24,7 @@ numberofcols: 8
 				<a href="{{ item.link }}""><img class=" img-fluid rounded mb-3 mb-md-0"
 					src="{{ images }}/{{ item.img | downcase }}" alt=""></a>
 				<div class="card-body">
-					<h5 class="card-title"><a href="{{ item.link }}">{{ item.title | markdownify }}</a></h5>
+					<h5 class="card-title"><a href="{{ item.link }}">{{ item.title | capitalize }}</a></h5>
 					<p class="card-text">{{ item.part3 | markdownify }}</p>
 				</div>
 			</div>
