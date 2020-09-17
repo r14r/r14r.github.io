@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Practice
-numberofcols: 8
+numberofcols: 4
 ---
 {% assign images = site.url | append: '/' | append: site.baseurl | append: '/assets/img' %}
 
@@ -10,7 +10,7 @@ numberofcols: 8
 {% when 2 %}{% assign colclass = 'col-lg-6                  ' %}
 {% when 3 %}{% assign colclass = 'col-lg-4          col-sm-6' %}
 {% when 4 %}{% assign colclass = 'col-lg-3 col-md-4 col-sm-6' %}
-{% else   %}{% assign colclass = 'col-lg-1 col-md-4 col-sm-6' %}
+{% else   %}{% assign colclass = 'col-lg-2 col-md-1 col-sm-6' %}
 {% endcase %}
 
 <div class="container">
