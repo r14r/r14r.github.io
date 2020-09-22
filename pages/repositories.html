@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Test
-numberofcols: 8
+numberofcols: 6
 ---
 {% assign images = site.url |  append:  '/' | append: site.baseurl | append: '/assets/img' %}
 
@@ -24,8 +24,8 @@ numberofcols: 8
 				<a href="{{ item.link }}""><img class=" img-fluid rounded mb-3 mb-md-0"
 					src="{{ images }}/{{ item.img | downcase }}" alt=""></a>
 				<div class="card-body">
-					<h5 class="card-title"><a href="{{ item.link }}">{{ item.title | capitalize }}</a></h5>
-					<p class="card-text">{{ item.part3 | markdownify }}</p>
+					<h5 class="card-title"><a href="{{ item.link }}">{{ item.title | upcase }}</a></h5>
+					<p class="card-text">{{ item.part3 | capitalize }}</p>
 				</div>
 			</div>
 		</div>

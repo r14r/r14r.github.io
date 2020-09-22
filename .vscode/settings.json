@@ -1,6 +1,9 @@
 {
   "editor.formatOnSave": true,
   "files.exclude": {
-
+    ".jekyll-cache": true,
+    ".env.d": true,
+    ".githooks": true,
+    "_site": true
   }
 }
