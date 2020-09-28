@@ -4,3 +4,6 @@ _site
 
 .jekyll-metadata
 .jekyll-cache/
+**/.env.d
+**/.env
+
